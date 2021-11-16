@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement>
+            <ui:ListView focusable="true" show-bound-collection-size="false" style="background-color: rgba(238, 179, 179, 255); width: 230px; height: 500px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="background-color: rgba(147, 200, 224, 255); width: 230px; height: 100px;" />
+            <ui:VisualElement style="align-items: flex-end; justify-content: space-between; margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; background-color: rgba(229, 216, 182, 255);">
+                <ui:VisualElement style="width: 230px; height: 50px; align-items: center; justify-content: center; background-color: rgba(219, 154, 180, 255);">
+                    <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" style="width: 40px; height: 40px; flex-grow: 1; flex-shrink: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

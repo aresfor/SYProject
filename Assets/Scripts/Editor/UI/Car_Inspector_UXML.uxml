@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="哼哼啊啊啊啊啊啊" display-tooltip-when-elided="true" />
+    <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="hi" binding-path="m_Make" />
+    <uie:PropertyField binding-path="m_YearBuilt" label="制造年份" />
+    <uie:PropertyField binding-path="m_Color" label="颜色" />
+</ui:UXML>

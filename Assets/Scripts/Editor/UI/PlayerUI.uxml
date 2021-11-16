@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="justify-content: flex-end; align-items: flex-end; flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Left" style="flex-grow: 0; flex-direction: column; width: 50%; height: 20%; align-items: flex-start; justify-content: center;">
+            <ui:ProgressBar title="my-progress" name="HealthBar" high-value="100" low-value="0" focusable="false" style="width: 60%; height: 30%; opacity: 1; display: flex; visibility: visible; overflow: visible; flex-shrink: 0; flex-grow: 0; background-color: rgba(236, 128, 123, 255); background-image: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="width: 50%; height: 20%; flex-direction: column;">
+            <ui:ProgressBar title="my-progress" style="background-color: rgba(0, 0, 0, 255); -unity-background-image-tint-color: rgba(255, 255, 255, 255); background-image: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

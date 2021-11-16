@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba2e3dd6e39a834bb31a20e6343a072, type: 3}
+  m_Name: FireBulletSkill
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 0}
+  Name: "\u706B\u7130\u5B50\u5F39"
+  ID: 2
+  OpenEdit: 0
+  Description: 
+  Notes: 
+  Type: 0
+  Attrubute: 2
+  preSkillName: []
+  Level: 1
+  Evolve: 0
+  BulletEffect: {fileID: 0}
+  ExtraDamage: 0
+  Trail: {fileID: 0}

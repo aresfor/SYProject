@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8751186998748407002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50869318fb720a40a5c80212f6a43fa, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: -8}
+  ports:
+    keys:
+    - preSkillName
+    - Out
+    values:
+    - _fieldName: preSkillName
+      _node: {fileID: -8751186998748407002}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Out
+      _node: {fileID: -8751186998748407002}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: preSkillName
+        node: {fileID: -1111940209037395053}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skill: {fileID: 11400000, guid: 05991b09d9fb6e346ad08c11be6e23f8, type: 2}
+  preSkillName: 
+  skillName: "\u51B0\u51BB\u5B50\u5F39"
+  skillLevel: 1
+  skillEvolve: 0
+  Out: 
+--- !u!114 &-5478098743847315332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50869318fb720a40a5c80212f6a43fa, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: 168}
+  ports:
+    keys:
+    - preSkillName
+    - Out
+    values:
+    - _fieldName: preSkillName
+      _node: {fileID: -5478098743847315332}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Out
+      _node: {fileID: -5478098743847315332}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: preSkillName
+        node: {fileID: -1111940209037395053}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skill: {fileID: 11400000, guid: 2a1d16dded6e2c148b6442cb97d29910, type: 2}
+  preSkillName: 
+  skillName: "\u706B\u7130\u5B50\u5F39"
+  skillLevel: 1
+  skillEvolve: 0
+  Out: 
+--- !u!114 &-1111940209037395053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50869318fb720a40a5c80212f6a43fa, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -104, y: 88}
+  ports:
+    keys:
+    - preSkillName
+    - Out
+    values:
+    - _fieldName: preSkillName
+      _node: {fileID: -1111940209037395053}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Out
+        node: {fileID: -8751186998748407002}
+        reroutePoints: []
+      - fieldName: Out
+        node: {fileID: -5478098743847315332}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Out
+      _node: {fileID: -1111940209037395053}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skill: {fileID: 11400000, guid: 8d200892caf89504ca58f104861b6729, type: 2}
+  preSkillName: 
+  skillName: "\u51B0\u68F1\u67F1"
+  skillLevel: 1
+  skillEvolve: 0
+  Out: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a16bf4a8d47ea4dbf5fb00946359aa, type: 3}
+  m_Name: SkillGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8751186998748407002}
+  - {fileID: -1111940209037395053}
+  - {fileID: -5478098743847315332}
